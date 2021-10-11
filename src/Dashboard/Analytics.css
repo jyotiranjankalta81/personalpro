@@ -1,0 +1,35 @@
+#analytics{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+#threediv{
+    width: 100%;
+}
+#box1{
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(216, 236, 234);
+    text-align: center;
+}
+#box2{
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(222, 236, 249);
+    text-align: center;
+}
+#box3{
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(247, 224, 218);
+    text-align: center;
+}
+#link{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 238, 243);
+    border-radius: 10px;
+}

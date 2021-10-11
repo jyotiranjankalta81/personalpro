@@ -1,0 +1,36 @@
+#pricing{
+    display: flex;
+    flex-direction: row-reverse;
+    /* float: right; */
+    /* border:2px solid red; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* padding: 7%; */
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border-radius: 17px;
+    background-color: aliceblue;
+}
+#heading1{
+    margin-top: 5%;
+}
+
+#price{
+    /* margin: 15px 15px; */
+    /* border:2px solid ; */
+    border-radius: 17px;
+    margin-left: 10px;
+    width: 250px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(190, 207, 221);
+}
+#card1{
+    margin-right: 7%;
+    text-align: center;
+}
+#card1 h3{
+    margin-top: 30%;
+}

@@ -1,0 +1,37 @@
+#insidebox11{
+    height: 28px;
+    width: 100%;
+    background-color: gray;
+
+}
+#insidebox12{
+    height: 28px;
+    border-radius: 17px;
+    width: 100%;
+    background-color: black;
+
+}
+#insidebox13{
+    height: 28px;
+    width: 100%;
+    background-color: gray;
+
+}
+#insidebox14{
+    height: 28px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+
+}
+#styles{
+    border: 1px solid black;
+    width: 23%;
+    border-radius: 10px;
+    /* height:"330px" */
+
+}
+#issue{
+    background-color: wheat;
+    border-radius: 10px;
+}

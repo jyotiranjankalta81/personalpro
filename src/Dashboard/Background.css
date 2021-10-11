@@ -1,0 +1,48 @@
+#insidebox21 {
+  height: 65px;
+  width: 100%;
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#insidebox22 {
+  height: 65px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#styles {
+  border: 1px solid black;
+  width: 48%;
+  border-radius: 10px;
+  /* height:"330px" */
+}
+#styles1 {
+  border: 1px solid black;
+  width: 25%;
+  border-radius: 10px;
+  background-color: rgb(59, 58, 58);
+  /* height:"330px" */
+}
+#styles2 {
+  border: 1px solid black;
+  width: 25%;
+  border-radius: 10px;
+  background-color: rgb(241, 237, 237);
+  /* height:"330px" */
+}
+#styles3 {
+  border: 1px solid black;
+  width: 25%;
+  border-radius: 10px;
+  /* height:"330px" */
+}
+#issue {
+  background-color: wheat;
+  border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+#addblock{
+    width: 700px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    /* height: 150px; */
+}
+#title{
+    display: flex;
+    width: 100%;
+    border: 2px solid green;
+    /* float: right; */
+    /* align-items: flex-end; */
+    text-align: end;
+    margin-left: 200px;
+}
+#clearmenu{
+    /* float: right; */
+    /* margin-right: -100px; */
+    border: 2px solid red;
+    /* margin: 0px auto; */
+    /* float: right; */
+    /* float: inline-start
+    f; */
+    /* font-size: large; */
+    font-size: 35px;
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+}
+#addblocksmallcomponent{
+    width: 500px;
+}

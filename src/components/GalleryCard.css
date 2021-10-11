@@ -1,0 +1,8 @@
+#gallerycard_img{
+    border: 15px solid rgb(240, 228, 206);
+    border-radius: 25px;
+    /* width: 300; */
+}
+#gallerycard_img img{
+    border-radius: 10px;
+}

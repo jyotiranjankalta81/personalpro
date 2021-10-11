@@ -1,0 +1,36 @@
+#top_div{
+    height: 550px;
+    background-image: url("../Assets/gallerycardimg/img8.jpg");
+    margin-bottom: 50px;
+    opacity: 0.8;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+#top_div h1{
+    /* padding: 150px auto; */
+    /* text-align: ; */
+    /* justify-content: center; */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 550px;
+    color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: unset; */
+    /* text-align: inherit; */
+    /* margin-top: 150px; */
+}
+#top_div p{
+    text-align: center;
+    color: white;
+    margin-top: -250px;
+    font-weight: bold;
+    /* vertical-align: 
+    ; */
+    vertical-align: middle;
+    /* line-height: 550px; */
+}
+/* body{
+    background-color: black;
+} */

@@ -1,0 +1,65 @@
+#tagcomponent{
+    font-weight: bold;
+    font-size: 20px;
+    /* margin-left: 4%; */
+}
+.avatar-pic {
+    width: 150px;
+}
+#twodiv{
+    width: 100%;
+}
+#box11{
+    width: 45%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(187, 187, 187);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+#box12{
+    width: 45%;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid black;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#squarebox{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 10px;
+}
+#circle{
+    background-color: rgb(28, 28, 28);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#upload_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#bar{
+    width: 30%;
+    height: 20px;
+    color: black;
+    background-color: black;
+    border-radius: 17px;
+}
+#socialicons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid green; */
+
+}

@@ -1,0 +1,49 @@
+*body{
+    margin:0;
+    padding:0;
+    background-color: transparent;
+    color: transparent;
+}
+#header{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 20%;
+    margin-right: 3%;
+    border: transparent;
+}
+#logo{
+    font-weight: bold;
+    color: #000000;
+    margin-left: -100px;
+    margin-right: 100px;
+    font-size: 25px;
+
+}
+#nav_item{
+    font-weight: bold;
+    color: #000000;
+}
+#nav_item:active{
+    color: rgb(10, 165, 118);
+}
+#nav_item:hover{
+    color: rgb(10, 165, 118);
+}
+#signup_button{
+    border-radius: 20px;
+    width: 90px;
+    border: 2px solid #000000;
+    color: #000000;
+    font-weight: bold;
+}
+
+#signin_button:hover{
+    color: rgb(10, 165, 118);
+}
+#signup_button:hover{
+    background-color: transparent;
+    color: rgb(10, 165, 118);
+    border-color: rgb(10, 165, 118);
+
+
+}

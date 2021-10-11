@@ -1,0 +1,9 @@
+#iconmenu{
+    cursor: pointer;
+}
+#moneydiv{
+    background-color: wheat;
+    /* margin-bottom: 120px; */
+    height: 250px;
+    border-radius: 10px;
+}
