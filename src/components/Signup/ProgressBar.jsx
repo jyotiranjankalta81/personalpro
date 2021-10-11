@@ -5,7 +5,7 @@ export const ProgressBar = () => {
   const myContext = useContext(AppContext)
   const updateContext = myContext.userDetails;
 
-  const percent = updateContext.currentPage * 100
+  const percent = updateContext.currentPage * 50
   const percentage = updateContext.currentPage
 
   const background = {
@@ -29,7 +29,7 @@ export const ProgressBar = () => {
   return (
     <>
       <div className="px-5">
-        <p style={text}>{percentage} of 6 completed</p>
+        <p style={text}>{percentage} of 12 completed</p>
         <div style={background}>
           <div style={progress}></div>
         </div>

@@ -43,7 +43,7 @@ function valuetext (value) {
   return `${value}°C`
 }
 
-const Stepfour = () => {
+const StepFourFour = () => {
     const classes = useStyles();
   const myContext = useContext(AppContext);
   const updateContext = myContext.userDetails;
@@ -55,7 +55,7 @@ const Stepfour = () => {
   const no = () => {
     if (updateContext.userEmail === "") {
       console.log('Please enter your Name')
-    } else updateContext.setStep(updateContext.currentPage + 1)
+    } else updateContext.setStep(updateContext.currentPage - 1)
   };
   return (
     <div>
@@ -65,7 +65,7 @@ const Stepfour = () => {
           {/* We made some themes for you! */}
           {/* Do you want to feature links to other people's Beacons, Instagram, TikTok, or Twitter profiles? */}
           {/* <strong>Do you want to sell items that you show in your TikTok videos?</strong> */}
-          <strong>Do you want to enable visitors to send <br /> money to support your content?</strong>
+          <strong>Do you want to enable visitors to pay for<br />personalized content,such as shoutouts?</strong>
         </Typography>
         <p className='justify-content-center' style={{fontSize:"13px"}}>
           {/* {' '} */}
@@ -73,7 +73,7 @@ const Stepfour = () => {
           {/* Tap a theme to see it in action. Everything is customizable later. */}
           {/* Direct your visitors to friends, brands you work with, products you believe in, and more. */}
           {/* Streamline the process of directing your TikTok audience to products. */}
-          Digits gifts and support for your next big project.
+          Get paid to create engage visitors in authentic ways.
         </p>
         <br />
         <div className={classes.root1}>
@@ -96,4 +96,4 @@ const Stepfour = () => {
   )
 }
 
-export default Stepfour
+export default StepFourFour

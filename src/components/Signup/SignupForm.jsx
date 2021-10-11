@@ -5,10 +5,14 @@ import Stepone from './Stepone'
 import Steptwo from './Steptwo'
 import Stepthree from './Stepthree'
 import Stepfour from './Stepfour'
+import StepFourOne from './StepFourOne'
+import StepFourTwo from './StepFourTwo'
+import StepFourThree from './StepFourThree'
 import Stepfive from './Stepfive'
 import Stepsix from './Stepsix'
 import { ProgressBar } from './ProgressBar'
 import SignupSecond from './SignupSecond'
+import StepFourFour from './StepFourFour'
 
 export const SignupForm = () => {
   const [step, setStep] = useState(0)
@@ -134,11 +138,15 @@ export const SignupForm = () => {
           {step === 0 && <SignupFirst />}
           {step === 1 && <SignupSecond />}
           {step === 2 && <Steptwo />}
-          {step === 3 && <Stepone />}
-          {step === 4 && <Stepthree />}
-          {step === 5 && <Stepfour />}
-          {step === 6 && <Stepfive />}
-          {step === 7 && <Stepsix />}
+          {step === 3 && <Stepfour />}
+          {step === 4 && <StepFourOne />}
+          {step === 5 && <StepFourTwo />}
+          {step === 6 && <StepFourThree />}
+          {step === 7 && <StepFourFour />}
+          {step === 7 && <Stepone />}
+          {step === 8 && <Stepthree />}
+          {step === 9 && <Stepfive />}
+          {step === 10 && <Stepsix />}
         </div>
       </div>
     </AppContext.Provider>
