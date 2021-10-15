@@ -142,11 +142,11 @@ export const SignupForm = () => {
           {step === 4 && <StepFourOne />}
           {step === 5 && <StepFourTwo />}
           {step === 6 && <StepFourThree />}
-          {step === 7 && <StepFourFour />}
-          {step === 7 && <Stepone />}
-          {step === 8 && <Stepthree />}
-          {step === 9 && <Stepfive />}
-          {step === 10 && <Stepsix />}
+          {step === 7 && <Stepfive />}
+          {step === 8 && <StepFourFour />}
+          {step === 9 && <Stepone />}
+          {step === 10 && <Stepthree />}
+          {step === 11 && <Stepsix />}
         </div>
       </div>
     </AppContext.Provider>

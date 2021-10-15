@@ -21,6 +21,7 @@ import Stepthree from './components/Signup/Stepthree';
 import Stepfour from './components/Signup/Stepfour';
 import Stepfive from './components/Signup/Stepfive';
 import Stepsix from './components/Signup/Stepsix';
+import DomainClaim from './components/Signup/DomainClaim'
 import Audience from './Dashboard/Audience';
 import BeconsCommunity from './Dashboard/BeconsCommunity';
 import Earnings from './Dashboard/Earnings';
@@ -60,6 +61,7 @@ function App() {
     <Route exact path="/emaillist" component={Emaillist}/>
     <Route exact path="/qrcode" component={QRCode}/>
     <Route exact path="/referrals" component={Referrals}/>
+    <Route exact path="/claimdomain" component={DomainClaim}/>
     <Route component={NotFound}/>
     <Redirect/>
     </Switch>
